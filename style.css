@@ -85,7 +85,7 @@ img {
 
 /* Info Section */
 .info {
-    padding-block: 36px;
+    padding-block: 48px;
 }
 
 .info h2 {
@@ -98,11 +98,12 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-block: 32px;
+    flex-wrap: wrap;
+    margin-block: 52px;
 }
 
 .card-container .card {
-    flex: 1 150px;
+    flex: 0 150px;
     text-align: center;
     color: #4d4d4d;
 }
@@ -112,4 +113,23 @@ img {
     border: 5px solid #3882F6;
     border-radius: 12px;
     margin-bottom: 12px;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #E5E7EB;
+    padding-block: 60px;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote p {
+    font-weight: 300;
+    font-style: italic;
+
+}
+.quote span {
+    display: block;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
 }
