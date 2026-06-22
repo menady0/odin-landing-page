@@ -8,18 +8,17 @@
 
 body {
     font-family: "Roboto", sans-serif;
+
+}
+
+/* Hero Section */
+.hero-section {
     background-color: #1F2937;
+    padding-bottom: 20px;
 }
 
 .container {
     padding-inline: 15%;
-}
-
-/* Hero Section */
-.hero {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
 }
 
 .navbar {
@@ -54,6 +53,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    margin-block: 75px;
 }
 
 .hero-main .context h1 {
@@ -81,4 +81,35 @@ img {
     height: 300px;
     border-radius: 12px;
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Info Section */
+.info {
+    padding-block: 36px;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-block: 32px;
+}
+
+.card-container .card {
+    flex: 1 150px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.card .box {
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 12px;
 }
