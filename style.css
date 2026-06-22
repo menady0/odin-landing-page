@@ -123,21 +123,25 @@ img {
     font-size: 36px;
     color: #1F2937;
 }
+
 .quote p {
     font-weight: 300;
     font-style: italic;
 
 }
+
 .quote span {
     display: block;
     text-align: right;
     font-size: 18px;
     font-weight: bold;
 }
+
 /* Call To Action Section */
 .call-to-action {
     padding-block: 80px;
 }
+
 .call-to-action .container {
     display: flex;
     justify-content: space-around;
@@ -147,9 +151,11 @@ img {
     padding: 32px;
     border-radius: 12px;
 }
+
 .call-to-action h4 {
     font-size: 28px;
 }
+
 .call-to-action button {
     padding: 8px 24px;
     color: white;
@@ -158,4 +164,11 @@ img {
     border-radius: 12px;
     font-weight: bold;
     font-size: 18px;
+}
+/* Footer  */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 36px;
 }
